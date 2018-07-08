@@ -253,7 +253,7 @@ b.button:after {
     @if $title-font-weight and $title-font-weight != $header-font-weight {
       font-weight: $title-font-weight;
     }
-    margin-top: 2.25rem;
+    //margin-top: 2.25rem;
     margin-bottom: 0;
 
     & + #toc {

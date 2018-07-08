@@ -23,15 +23,15 @@ h2 {
 }
 
 #header, #content, #footnotes {
-  max-width: 660px;
-  padding-left: 0;
-  padding-right: 0;
+  max-width: 100%;
+  padding-left: 20px;
+  padding-right: 20px;
 }
 
 #content ul {
   list-style-type: none;
   li {
-    background: image-url('github/li-chevron.png') 0 .4em no-repeat;
+    background: inline-image('github/li-chevron.png') 0 .4em no-repeat;
     padding-left: .7em;
   }
 }
@@ -65,7 +65,7 @@ h2 {
 
 .quoteblock {
   blockquote {
-    background: image-url('github/blockquote-arrow.png') 0 2px no-repeat;
+    //background: image-url('github/blockquote-arrow.png') 0 2px no-repeat;
     padding-left: 1em;
   }
 }
