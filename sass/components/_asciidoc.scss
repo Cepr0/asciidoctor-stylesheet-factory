@@ -750,16 +750,16 @@ table.tableblock #preamble > .sectionbody > [class="paragraph"]:first-of-type p 
     }
     
     // screens below breakpoint
-    padding: $pre-padding;
-    font-size: emCalc(13px);
-
-    @media #{$small} {
-      font-size: emCalc(14.5px);
-    }
-
-    @media #{$medium} {
-      font-size: emCalc(16px);
-    }
+    //padding: $pre-padding;
+    //font-size: emCalc(13px);
+    //
+    //@media #{$small} {
+    //  font-size: emCalc(14.5px);
+    //}
+    //
+    //@media #{$medium} {
+    //  font-size: emCalc(16px);
+    //}
   }
 }
 
@@ -885,7 +885,7 @@ table.pyhltable .linenodiv {
       content: "\201c";
       float: left;
       //font-size: 3em;
-      font-size: 2.75em;
+      font-size: 1.5em;
       font-weight: bold;
       line-height: 0.6em; // use 0.67em if font-weight: normal
       margin-left: -0.6em;
